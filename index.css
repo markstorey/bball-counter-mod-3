@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@font-face {
+  font-family: "CursedTimerUlil-Aznm";
+  src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.num-background {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    font-family: CursedTimerUlil-Aznm;
+    color: #F94F6D;
+    font-size: 90px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.math-btn {
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: CursedTimerUlil-Aznm;
+}
